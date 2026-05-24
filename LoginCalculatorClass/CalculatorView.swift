@@ -68,7 +68,7 @@ struct CalculatorView: View{
         .animation(.spring, value: result)
     }
     
-    //MARK: functions
+    //MARK: functions/
     enum OperationType{
         case add, substract, multiply, divide
     }
