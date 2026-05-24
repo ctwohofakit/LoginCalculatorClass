@@ -96,7 +96,7 @@ struct ContentView: View {
     
     func handleLogin(){
         if username == "admin" && password == "secret123"{
-            message = "Welcome\(username)!"
+            message = "Welcome \(username)!"
             isLoggedIn = true
             
         }
